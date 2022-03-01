@@ -1,6 +1,7 @@
 #![warn(clippy::all, clippy::pedantic)]
 use std::io::stdin;
 
+#[derive(Debug)]
 struct Visitor {
     name: String,
     greeting: String,
